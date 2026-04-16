@@ -10,9 +10,7 @@ Samuel Mo
 Ben Phiri
 Osward Mwaba
 Wamuyoo M. Ndiyoi
-Amazing Nyangu
-<img width="115" height="261" alt="image" src="https://github.com/user-attachments/assets/32ff2ef3-517b-4ab7-b1ed-3132d1ccca56" />
-*
+Amazing Nyangu*
 
 ---
 
