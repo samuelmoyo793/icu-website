@@ -53,7 +53,7 @@ Assignment/
 ## Features
 
 ### Design & UI
-- **Official ICU brand colours** — Primary Blue `#1b4f9b`, Dark Navy `#0d1b3e`, White `#ffffff`
+- **Official ICU brand colours** — Primary Blue `#1b4f9b`, Dark Blue `#0d1b3e`, White `#ffffff`
 - **CSS custom property system** — all colours, shadows, and spacing as design tokens for easy theming
 - **Responsive layout** — Bootstrap 5 grid; fully functional on mobile, tablet, and desktop
 - **Dark mode** — toggle with `localStorage` persistence and `prefers-color-scheme` detection
