@@ -1,4 +1,4 @@
-# ICU Zambia — Official Website
+# ICU Zambia — Group Presentation
 
 **Information and Communications University (ICU) Zambia**
 *Delivering An ICT Enabled Education With Excellence*
