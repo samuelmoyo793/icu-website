@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"  content="Information and Communication University (ICU) Zambia – Lusaka's premier private university for technology and innovation. Accredited by HEA. Apply for 2026 intake.">
-    <meta name="keywords"     content="ICU Zambia, university, Lusaka, computer science, IT, data science, cybersecurity, higher education">
-    <meta name="author"       content="ICU Zambia">
-    <meta name="theme-color"  content="#003366">
+    <meta name="description"  content="Information and Communications University (ICU) Zambia – Delivering An ICT Enabled Education With Excellence. Located in Kafue, Zambia. Apply now for 2026 intake.">
+    <meta name="keywords"     content="ICU Zambia, Information Communications University, Kafue, ICT, software engineering, network technology, higher education Zambia">
+    <meta name="author"       content="Information and Communications University Zambia">
+    <meta name="theme-color"  content="#1b4f9b">
 
     <!-- Open Graph / Social sharing -->
     <meta property="og:type"        content="website">
-    <meta property="og:title"       content="ICU Zambia | Information and Communication University">
-    <meta property="og:description" content="Shaping the future through technology and innovation since 2009. Accredited by HEA, Zambia.">
-    <meta property="og:image"       content="https://images.unsplash.com/photo-1562774053-701939374585?w=1200&q=80">
+    <meta property="og:url"         content="https://icu.ac.zm/">
+    <meta property="og:title"       content="ICU Zambia | Information and Communications University">
+    <meta property="og:description" content="Delivering An ICT Enabled Education With Excellence. Zambia's premier ICT university located in Kafue.">
+    <meta property="og:image"       content="images/slide1.webp">
 
-    <title>ICU Zambia | Information and Communication University</title>
+    <title>ICU Zambia | Information and Communications University</title>
+
+    <!-- Favicon & App Icons (official ICU assets) -->
+    <link rel="icon" href="images/favicon.ico" sizes="any">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <!-- Bootstrap 5.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -77,10 +83,10 @@
         <div class="container">
             <!-- Brand -->
             <a class="navbar-brand" href="#home" aria-label="ICU Zambia – go to homepage">
-                <span class="brand-icon" aria-hidden="true">
-                    <i class="fas fa-graduation-cap"></i>
+                <img src="images/favicon.svg" alt="ICU Zambia logo" class="brand-logo" aria-hidden="true">
+                <span class="brand-name">
+                    <span class="brand-icu">ICU</span> Zambia
                 </span>
-                ICU Zambia
             </a>
 
             <!-- Mobile toggle -->
@@ -141,7 +147,7 @@
             <!-- Eyebrow label -->
             <div class="hero-eyebrow" data-aos="fade-down">
                 <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                Lusaka, Zambia &mdash; Est. 2009
+                Off Shantumbu Road, Kafue, Zambia &mdash; Est. 2009
             </div>
 
             <!-- Main heading -->
@@ -151,21 +157,21 @@
 
             <!-- Subtitle -->
             <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="160">
-                Information and Communication University
+                Information and Communications University
             </p>
 
             <!-- Typewriter tagline -->
             <p class="hero-tagline" data-aos="fade-up" data-aos-delay="240">
-                <span id="heroTagline" aria-live="polite">Shaping the Future Through Technology &amp; Innovation</span>
+                <span id="heroTagline" aria-live="polite">Delivering An ICT Enabled Education With Excellence</span>
                 <span class="cursor" aria-hidden="true" style="animation:pulse 1s infinite;">|</span>
             </p>
 
             <!-- Call-to-action buttons -->
             <div class="hero-ctas" data-aos="fade-up" data-aos-delay="320">
-                <a href="#programs"   class="btn-custom btn-primary-custom">
+                <a href="#programs" class="btn-custom btn-primary-custom">
                     <i class="fas fa-book-open" aria-hidden="true"></i> Our Programs
                 </a>
-                <a href="#admissions" class="btn-custom btn-outline-custom">
+                <a href="https://admission.icu.ac.zm" target="_blank" rel="noopener" class="btn-custom btn-outline-custom">
                     <i class="fas fa-pen-to-square" aria-hidden="true"></i> Apply Now
                 </a>
             </div>
@@ -177,16 +183,16 @@
                     <span class="h-lbl">Years of Excellence</span>
                 </div>
                 <div class="hero-stat" role="listitem">
-                    <span class="h-num">25+</span>
+                    <span class="h-num">38+</span>
                     <span class="h-lbl">Academic Programs</span>
                 </div>
                 <div class="hero-stat" role="listitem">
-                    <span class="h-num">2000+</span>
-                    <span class="h-lbl">Graduates</span>
+                    <span class="h-num">4</span>
+                    <span class="h-lbl">Schools</span>
                 </div>
                 <div class="hero-stat" role="listitem">
-                    <span class="h-num">95%</span>
-                    <span class="h-lbl">Employment Rate</span>
+                    <span class="h-num">100%</span>
+                    <span class="h-lbl">Accredited</span>
                 </div>
             </div>
         </div>
@@ -218,7 +224,7 @@
                 </div>
                 <div class="trust-item">
                     <i class="fas fa-wifi" aria-hidden="true"></i>
-                    <span>High-Speed Campus Wi-Fi</span>
+                    <span>Low-Speed Campus Wi-Fi</span>
                 </div>
                 <div class="trust-item">
                     <i class="fas fa-book" aria-hidden="true"></i>
@@ -243,8 +249,8 @@
                 <!-- Image column -->
                 <div class="col-lg-6" data-aos="fade-right">
                     <div class="about-image-wrap">
-                        <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-                             alt="ICU Zambia campus, Lusaka" loading="lazy">
+                        <img src="images/girl-standing.webp"
+                             alt="ICU Zambia student on campus, Kafue" loading="lazy">
                         <div class="established-badge" aria-label="Established in 2009">
                             <span class="year">2009</span>
                             <span class="lbl">Established</span>
@@ -258,54 +264,57 @@
 
                 <!-- Text column -->
                 <div class="col-lg-6" data-aos="fade-left">
-                    <h3 class="about-tagline">Leading the Digital Revolution in Zambia</h3>
+                    <h3 class="about-tagline">Shaping Minds. Transforming Lives.</h3>
                     <p class="mb-3" style="color:var(--text-muted);line-height:1.8;">
-                        Information and Communication University (ICU Zambia) is a private higher education institution
-                        located in Lusaka, Zambia. Founded in 2009, ICU Zambia is officially recognised by the
-                        Ministry of Education and the Higher Education Authority (HEA).
+                        Information and Communications University (ICU) is built on the principle that
+                        <em>"education should inspire invention, not just usage."</em> Its legacy traces to the
+                        original ICU founded in Daejeon, South Korea in 1998 — a research-focused ICT institution
+                        that merged with KAIST in 2009, after which dedicated faculty established ICU Zambia to
+                        carry that spirit forward in Africa.
                     </p>
                     <p style="color:var(--text-muted);line-height:1.8;">
-                        We are dedicated to providing quality, industry-aligned education in information and
-                        communication technologies, equipping graduates for leadership in Zambia's digital economy.
+                        Located off Shantumbu Road, Kafue, ICU Zambia offers accredited programmes in
+                        Information &amp; Communications Technology, Business, Education, Engineering, and
+                        Humanities — designed to prepare graduates for a knowledge-driven world.
                     </p>
 
                     <!-- Highlights -->
                     <ul class="about-highlight-list" aria-label="Key highlights">
                         <li>
                             <i class="fas fa-check-circle" aria-hidden="true"></i>
-                            Fully accredited by the Higher Education Authority (HEA) of Zambia
+                            Accredited by the Higher Education Authority (HEA) of Zambia
                         </li>
                         <li>
                             <i class="fas fa-check-circle" aria-hidden="true"></i>
-                            Industry-partnered curriculum updated annually
+                            Four Schools: Humanities, Business, Education &amp; Engineering
                         </li>
                         <li>
                             <i class="fas fa-check-circle" aria-hidden="true"></i>
-                            State-of-the-art computer labs and high-speed campus network
+                            Partnerships with KAIST, ZRDC, Multiresearch &amp; Russian Language Centre
                         </li>
                         <li>
                             <i class="fas fa-check-circle" aria-hidden="true"></i>
-                            95% graduate employment rate within 6 months of completion
+                            Digital library access via <a href="https://library.icuzambia.net" target="_blank" rel="noopener">library.icuzambia.net</a>
                         </li>
                     </ul>
 
                     <!-- Stats -->
                     <div class="about-stats" role="list" aria-label="University statistics">
                         <div class="about-stat-box" role="listitem">
-                            <div class="num">15+</div>
+                            <div class="num">38+</div>
                             <div class="lbl">Programs</div>
                         </div>
                         <div class="about-stat-box" role="listitem">
-                            <div class="num">500+</div>
-                            <div class="lbl">Students</div>
+                            <div class="num">4</div>
+                            <div class="lbl">Schools</div>
                         </div>
                         <div class="about-stat-box" role="listitem">
-                            <div class="num">40+</div>
-                            <div class="lbl">Faculty</div>
+                            <div class="num">10+</div>
+                            <div class="lbl">Partners</div>
                         </div>
                         <div class="about-stat-box" role="listitem">
-                            <div class="num">15</div>
-                            <div class="lbl">Years</div>
+                            <div class="num">2009</div>
+                            <div class="lbl">Founded</div>
                         </div>
                     </div>
 
@@ -425,114 +434,129 @@
 
             <div class="row g-4">
 
-                <!-- Computer Science -->
-                <div class="col-lg-4 col-md-6 prog-col" data-level="undergraduate"
-                     data-aos="fade-up" data-aos-delay="100">
+                <!-- BSc ICT -->
+                <div class="col-lg-4 col-md-6 prog-col" data-level="undergraduate" data-aos="fade-up" data-aos-delay="100">
                     <article class="program-card">
-                        <div class="program-icon" aria-hidden="true">
-                            <i class="fas fa-laptop-code"></i>
-                        </div>
-                        <h4>Computer Science</h4>
-                        <p>Bachelor's degree covering programming, algorithms, software development, and artificial intelligence.</p>
+                        <div class="program-icon" aria-hidden="true"><i class="fas fa-laptop-code"></i></div>
+                        <h4>BSc Information &amp; Communications Technology</h4>
+                        <p>Core ICT degree covering systems, networking, programming, and digital infrastructure for Zambia's tech economy.</p>
                         <div class="program-meta">
                             <span class="program-badge badge-undergraduate">Undergraduate</span>
-                            <a href="#admissions" class="program-link">
-                                Apply <i class="fas fa-arrow-right" aria-hidden="true"></i>
-                            </a>
+                            <a href="https://admission.icu.ac.zm" target="_blank" rel="noopener" class="program-link">Apply <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
                         </div>
                     </article>
                 </div>
 
-                <!-- Information Technology -->
-                <div class="col-lg-4 col-md-6 prog-col" data-level="undergraduate"
-                     data-aos="fade-up" data-aos-delay="150">
+                <!-- Software Engineering -->
+                <div class="col-lg-4 col-md-6 prog-col" data-level="undergraduate" data-aos="fade-up" data-aos-delay="150">
                     <article class="program-card">
-                        <div class="program-icon" aria-hidden="true">
-                            <i class="fas fa-network-wired"></i>
-                        </div>
-                        <h4>Information Technology</h4>
-                        <p>Bachelor's degree in IT covering networking, systems administration, cloud computing, and cybersecurity.</p>
+                        <div class="program-icon" aria-hidden="true"><i class="fas fa-code"></i></div>
+                        <h4>BSc ICT in Software Engineering</h4>
+                        <p>Comprehensive software engineering training: algorithms, web &amp; mobile development, databases, and project management.</p>
                         <div class="program-meta">
                             <span class="program-badge badge-undergraduate">Undergraduate</span>
-                            <a href="#admissions" class="program-link">
-                                Apply <i class="fas fa-arrow-right" aria-hidden="true"></i>
-                            </a>
+                            <a href="https://admission.icu.ac.zm" target="_blank" rel="noopener" class="program-link">Apply <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
                         </div>
                     </article>
                 </div>
 
-                <!-- Business Information Systems -->
-                <div class="col-lg-4 col-md-6 prog-col" data-level="undergraduate"
-                     data-aos="fade-up" data-aos-delay="200">
+                <!-- Network Technology -->
+                <div class="col-lg-4 col-md-6 prog-col" data-level="undergraduate" data-aos="fade-up" data-aos-delay="200">
                     <article class="program-card">
-                        <div class="program-icon" aria-hidden="true">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <h4>Business Information Systems</h4>
-                        <p>Bridging business management and technology — ERP systems, digital strategy, and analytics.</p>
+                        <div class="program-icon" aria-hidden="true"><i class="fas fa-network-wired"></i></div>
+                        <h4>BSc ICT in Network Technology</h4>
+                        <p>Specialised training in routing, switching, wireless networks, network security, and infrastructure management.</p>
                         <div class="program-meta">
                             <span class="program-badge badge-undergraduate">Undergraduate</span>
-                            <a href="#admissions" class="program-link">
-                                Apply <i class="fas fa-arrow-right" aria-hidden="true"></i>
-                            </a>
+                            <a href="https://admission.icu.ac.zm" target="_blank" rel="noopener" class="program-link">Apply <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
                         </div>
                     </article>
                 </div>
 
-                <!-- Cybersecurity -->
-                <div class="col-lg-4 col-md-6 prog-col" data-level="postgraduate"
-                     data-aos="fade-up" data-aos-delay="100">
+                <!-- Information Security -->
+                <div class="col-lg-4 col-md-6 prog-col" data-level="undergraduate" data-aos="fade-up" data-aos-delay="100">
                     <article class="program-card">
-                        <div class="program-icon" aria-hidden="true">
-                            <i class="fas fa-shield-halved"></i>
+                        <div class="program-icon" aria-hidden="true"><i class="fas fa-shield-halved"></i></div>
+                        <h4>BSc Information Security &amp; Computer Forensics</h4>
+                        <p>Cybersecurity, ethical hacking, digital forensics, and information assurance for protecting critical systems.</p>
+                        <div class="program-meta">
+                            <span class="program-badge badge-undergraduate">Undergraduate</span>
+                            <a href="https://admission.icu.ac.zm" target="_blank" rel="noopener" class="program-link">Apply <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
                         </div>
-                        <h4>Cybersecurity</h4>
-                        <p>MSc-level programme in information security, ethical hacking, incident response, and data protection law.</p>
+                    </article>
+                </div>
+
+                <!-- MSc ICT -->
+                <div class="col-lg-4 col-md-6 prog-col" data-level="postgraduate" data-aos="fade-up" data-aos-delay="150">
+                    <article class="program-card">
+                        <div class="program-icon" aria-hidden="true"><i class="fas fa-brain"></i></div>
+                        <h4>Master in Information &amp; Communications Technology</h4>
+                        <p>Advanced postgraduate programme in ICT systems, research methods, and technology leadership for professionals.</p>
                         <div class="program-meta">
                             <span class="program-badge badge-postgraduate">Postgraduate</span>
-                            <a href="#admissions" class="program-link">
-                                Apply <i class="fas fa-arrow-right" aria-hidden="true"></i>
-                            </a>
+                            <a href="https://admission.icu.ac.zm" target="_blank" rel="noopener" class="program-link">Apply <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
                         </div>
                     </article>
                 </div>
 
-                <!-- Data Science -->
-                <div class="col-lg-4 col-md-6 prog-col" data-level="postgraduate"
-                     data-aos="fade-up" data-aos-delay="150">
+                <!-- MBA -->
+                <div class="col-lg-4 col-md-6 prog-col" data-level="postgraduate" data-aos="fade-up" data-aos-delay="200">
                     <article class="program-card">
-                        <div class="program-icon" aria-hidden="true">
-                            <i class="fas fa-brain"></i>
-                        </div>
-                        <h4>Data Science &amp; AI</h4>
-                        <p>Master's programme in machine learning, big data technologies, statistical modelling, and Python analytics.</p>
+                        <div class="program-icon" aria-hidden="true"><i class="fas fa-briefcase"></i></div>
+                        <h4>Master of Business Administration (MBA)</h4>
+                        <p>Strategic leadership, finance, entrepreneurship, and management — designed for working professionals seeking career growth.</p>
                         <div class="program-meta">
                             <span class="program-badge badge-postgraduate">Postgraduate</span>
-                            <a href="#admissions" class="program-link">
-                                Apply <i class="fas fa-arrow-right" aria-hidden="true"></i>
-                            </a>
+                            <a href="https://admission.icu.ac.zm" target="_blank" rel="noopener" class="program-link">Apply <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
                         </div>
                     </article>
                 </div>
 
-                <!-- Software Engineering Diploma -->
-                <div class="col-lg-4 col-md-6 prog-col" data-level="diploma"
-                     data-aos="fade-up" data-aos-delay="200">
+                <!-- Electrical Engineering -->
+                <div class="col-lg-4 col-md-6 prog-col" data-level="undergraduate" data-aos="fade-up" data-aos-delay="100">
                     <article class="program-card">
-                        <div class="program-icon" aria-hidden="true">
-                            <i class="fas fa-mobile-screen-button"></i>
-                        </div>
-                        <h4>Software Engineering</h4>
-                        <p>Advanced Diploma in mobile and web application development using modern frameworks and DevOps practices.</p>
+                        <div class="program-icon" aria-hidden="true"><i class="fas fa-bolt"></i></div>
+                        <h4>BSc Electrical &amp; Electronics Engineering</h4>
+                        <p>Electrical systems, electronics, telecommunications, and power engineering with hands-on laboratory training.</p>
                         <div class="program-meta">
-                            <span class="program-badge badge-diploma">Diploma</span>
-                            <a href="#admissions" class="program-link">
-                                Apply <i class="fas fa-arrow-right" aria-hidden="true"></i>
-                            </a>
+                            <span class="program-badge badge-undergraduate">Undergraduate</span>
+                            <a href="https://admission.icu.ac.zm" target="_blank" rel="noopener" class="program-link">Apply <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
                         </div>
                     </article>
                 </div>
 
+                <!-- Mass Communication -->
+                <div class="col-lg-4 col-md-6 prog-col" data-level="undergraduate" data-aos="fade-up" data-aos-delay="150">
+                    <article class="program-card">
+                        <div class="program-icon" aria-hidden="true"><i class="fas fa-satellite-dish"></i></div>
+                        <h4>BA in Mass Communication</h4>
+                        <p>Media studies, journalism, broadcasting, and digital communications preparing students for Zambia's evolving media landscape.</p>
+                        <div class="program-meta">
+                            <span class="program-badge badge-undergraduate">Undergraduate</span>
+                            <a href="https://admission.icu.ac.zm" target="_blank" rel="noopener" class="program-link">Apply <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- MPA -->
+                <div class="col-lg-4 col-md-6 prog-col" data-level="postgraduate" data-aos="fade-up" data-aos-delay="200">
+                    <article class="program-card">
+                        <div class="program-icon" aria-hidden="true"><i class="fas fa-landmark"></i></div>
+                        <h4>Master of Public Administration</h4>
+                        <p>Public policy, governance, leadership, and administration for professionals in government and public sector organisations.</p>
+                        <div class="program-meta">
+                            <span class="program-badge badge-postgraduate">Postgraduate</span>
+                            <a href="https://admission.icu.ac.zm" target="_blank" rel="noopener" class="program-link">Apply <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-4" data-aos="fade-up">
+                <a href="https://icu.ac.zm/academics/undergraduate" target="_blank" rel="noopener" class="btn-custom btn-primary-custom">
+                    <i class="fas fa-list" aria-hidden="true"></i> View All 38+ Programs
+                </a>
             </div>
         </div>
     </section>
@@ -971,18 +995,18 @@
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                     <article class="news-card">
                         <div class="news-img">
-                            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                 alt="Tech Career Fair event" loading="lazy">
-                            <div class="news-date-badge" aria-label="March 15">
-                                <span class="day">15</span>
+                            <img src="images/news1.webp"
+                                 alt="ICU certifies second cohort in artisanal and small-scale mining" loading="lazy">
+                            <div class="news-date-badge" aria-label="March 4">
+                                <span class="day">04</span>
                                 <span class="month">MAR</span>
                             </div>
-                            <span class="news-category">Event</span>
+                            <span class="news-category">News</span>
                         </div>
                         <div class="news-body">
-                            <h5>Tech Career Fair 2026</h5>
-                            <p>Meet top employers from Zambia's technology sector and explore graduate and internship opportunities.</p>
-                            <a href="#" class="news-read-more">
+                            <h5>ICU Certifies Second Cohort in Artisanal &amp; Small-Scale Mining</h5>
+                            <p>ICU has certified its second cohort under the Artisanal and Small-Scale Mining programme, equipping Zambians with practical mining skills.</p>
+                            <a href="https://icu.ac.zm/news/icu-certifies-second-cohort-in-artisanal-and-small-scale-mining" target="_blank" rel="noopener" class="news-read-more">
                                 Read more <i class="fas fa-arrow-right" aria-hidden="true"></i>
                             </a>
                         </div>
@@ -992,18 +1016,18 @@
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
                     <article class="news-card">
                         <div class="news-img">
-                            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                 alt="Hackathon coding event" loading="lazy">
-                            <div class="news-date-badge" aria-label="March 22">
-                                <span class="day">22</span>
-                                <span class="month">MAR</span>
+                            <img src="images/news2.webp"
+                                 alt="ICU artisanal mining training enters day four with focus on gold identification" loading="lazy">
+                            <div class="news-date-badge" aria-label="February 26">
+                                <span class="day">26</span>
+                                <span class="month">FEB</span>
                             </div>
-                            <span class="news-category">Competition</span>
+                            <span class="news-category">News</span>
                         </div>
                         <div class="news-body">
-                            <h5>ICU Hackathon 2026</h5>
-                            <p>24-hour coding competition with K50,000 in prizes and mentorship from industry leaders.</p>
-                            <a href="#" class="news-read-more">
+                            <h5>ICU Mining Training: Focus on Gold Identification</h5>
+                            <p>Day four of ICU's Artisanal Mining Training Programme centred on gold identification, helping participants recognise Zambia's most valuable mineral.</p>
+                            <a href="https://icu.ac.zm/news/icu-artisanal-mining-training-enters-day-four-with-focus-on-gold-identification" target="_blank" rel="noopener" class="news-read-more">
                                 Read more <i class="fas fa-arrow-right" aria-hidden="true"></i>
                             </a>
                         </div>
@@ -1013,18 +1037,18 @@
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
                     <article class="news-card">
                         <div class="news-img">
-                            <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                 alt="Open Day campus tour" loading="lazy">
-                            <div class="news-date-badge" aria-label="April 5">
-                                <span class="day">05</span>
-                                <span class="month">APR</span>
+                            <img src="images/news3.webp"
+                                 alt="ICU trains and certifies artisanal and small-scale miners" loading="lazy">
+                            <div class="news-date-badge" aria-label="January 17">
+                                <span class="day">17</span>
+                                <span class="month">JAN</span>
                             </div>
-                            <span class="news-category">Open Day</span>
+                            <span class="news-category">News</span>
                         </div>
                         <div class="news-body">
-                            <h5>Campus Open Day</h5>
-                            <p>Tour the campus, attend sample lectures, meet faculty, and learn more about our programmes first-hand.</p>
-                            <a href="#" class="news-read-more">
+                            <h5>ICU Trains &amp; Certifies Artisanal and Small-Scale Miners</h5>
+                            <p>In partnership with ZRDC, ICU certified artisanal miners following specialised training in safety, sustainability, and regulatory compliance.</p>
+                            <a href="https://icu.ac.zm/news/icu-trains-and-certifies-artisanal-and-small-scale-miners" target="_blank" rel="noopener" class="news-read-more">
                                 Read more <i class="fas fa-arrow-right" aria-hidden="true"></i>
                             </a>
                         </div>
@@ -1077,8 +1101,8 @@
                         </div>
                         <h5>Visit Us</h5>
                         <address>
-                            Great East Road, Plot 1234<br>
-                            Lusaka, Zambia
+                            Off Shantumbu Road, Kafue<br>
+                            Plot&nbsp;#&nbsp;19877/M/1A/392, Zambia
                         </address>
                     </div>
                 </div>
@@ -1089,8 +1113,9 @@
                         </div>
                         <h5>Call Us</h5>
                         <p>
-                            <a href="tel:+260211123456">+260 211 123 456</a><br>
-                            <a href="tel:+260977123456">+260 977 123 456</a>
+                            <a href="tel:+260211000000">+260 211 000 000</a><br>
+                            <a href="tel:+260779841694">+260 779 841 694</a><br>
+                            <a href="tel:+260777020293">+260 777 020 293</a>
                         </p>
                     </div>
                 </div>
@@ -1101,8 +1126,11 @@
                         </div>
                         <h5>Email Us</h5>
                         <p>
-                            <a href="mailto:info@icuzambia.net">info@icuzambia.net</a><br>
-                            <a href="mailto:admissions@icuzambia.net">admissions@icuzambia.net</a>
+                            <a href="mailto:info@icu.ac.zm">info@icu.ac.zm</a>
+                        </p>
+                        <p class="mt-2" style="font-size:0.85rem;color:var(--text-muted);">
+                            Admissions: <a href="https://admission.icu.ac.zm" target="_blank" rel="noopener">admission.icu.ac.zm</a><br>
+                            Student Portal: <a href="https://aims.icuzambia.net" target="_blank" rel="noopener">aims.icuzambia.net</a>
                         </p>
                     </div>
                 </div>
@@ -1181,8 +1209,8 @@
                 <div class="col-md-6" data-aos="fade-left">
                     <div class="map-wrap">
                         <iframe
-                            title="ICU Zambia location map – Great East Road, Lusaka"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123456.789012345!2d28.283333!3d-15.416667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDI1JzAwLjAiUyAyOMKwMTcnMDAuMCJF!5e0!3m2!1sen!2szm!4v1234567890"
+                            title="ICU Zambia location map – Off Shantumbu Road, Kafue"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30728.123456789!2d28.1833!3d-15.7667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19408b6f3d3eca73%3A0x0!2sKafue%2C+Zambia!5e0!3m2!1sen!2szm!4v1700000000000"
                             allowfullscreen
                             loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade">
@@ -1205,29 +1233,26 @@
                 <!-- Brand column -->
                 <div class="col-lg-4">
                     <div class="footer-brand">
-                        <h4>
-                            <span aria-hidden="true"><i class="fas fa-graduation-cap"></i></span>
-                            ICU Zambia
-                        </h4>
+                        <div class="footer-logo-wrap">
+                            <img src="images/favicon.svg" alt="ICU Zambia logo" class="footer-logo">
+                            <h4>ICU Zambia</h4>
+                        </div>
                         <p>
-                            Information and Communication University — shaping Africa's digital future
-                            through quality education, research, and innovation since 2009.
+                            Information and Communications University — delivering an ICT enabled education
+                            with excellence. Located off Shantumbu Road, Kafue, Zambia.
                         </p>
                     </div>
                     <nav class="footer-social" aria-label="Social media">
-                        <a href="#" aria-label="Follow ICU Zambia on Facebook">
+                        <a href="http://facebook.com/icuzambia" target="_blank" rel="noopener" aria-label="Follow ICU Zambia on Facebook">
                             <i class="fab fa-facebook-f" aria-hidden="true"></i>
                         </a>
-                        <a href="#" aria-label="Follow ICU Zambia on Twitter / X">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                        </a>
-                        <a href="#" aria-label="Follow ICU Zambia on Instagram">
+                        <a href="https://www.instagram.com/icuzambia" target="_blank" rel="noopener" aria-label="Follow ICU Zambia on Instagram">
                             <i class="fab fa-instagram" aria-hidden="true"></i>
                         </a>
-                        <a href="#" aria-label="Connect with ICU Zambia on LinkedIn">
+                        <a href="https://www.linkedin.com/school/icuzambia" target="_blank" rel="noopener" aria-label="Connect with ICU Zambia on LinkedIn">
                             <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                         </a>
-                        <a href="#" aria-label="Watch ICU Zambia on YouTube">
+                        <a href="https://www.youtube.com/@icutvzm" target="_blank" rel="noopener" aria-label="Watch ICU Zambia on YouTube">
                             <i class="fab fa-youtube" aria-hidden="true"></i>
                         </a>
                     </nav>
@@ -1250,12 +1275,12 @@
                 <div class="col-lg-2 col-md-4 footer-col">
                     <h6>Resources</h6>
                     <ul class="footer-links">
-                        <li><a href="#"><i class="fas fa-chevron-right" aria-hidden="true"></i> Student Portal</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right" aria-hidden="true"></i> E-Library</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right" aria-hidden="true"></i> Academic Calendar</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right" aria-hidden="true"></i> Downloads</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right" aria-hidden="true"></i> FAQs</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right" aria-hidden="true"></i> Research</a></li>
+                        <li><a href="https://aims.icuzambia.net" target="_blank" rel="noopener"><i class="fas fa-chevron-right" aria-hidden="true"></i> Student Portal (AIMS)</a></li>
+                        <li><a href="https://library.icuzambia.net" target="_blank" rel="noopener"><i class="fas fa-chevron-right" aria-hidden="true"></i> E-Library</a></li>
+                        <li><a href="https://research.icu.ac.zm" target="_blank" rel="noopener"><i class="fas fa-chevron-right" aria-hidden="true"></i> Research Repository</a></li>
+                        <li><a href="https://admission.icu.ac.zm" target="_blank" rel="noopener"><i class="fas fa-chevron-right" aria-hidden="true"></i> Apply Online</a></li>
+                        <li><a href="https://workspace.icu.ac.zm" target="_blank" rel="noopener"><i class="fas fa-chevron-right" aria-hidden="true"></i> Careers</a></li>
+                        <li><a href="https://icutvzm.com" target="_blank" rel="noopener"><i class="fas fa-chevron-right" aria-hidden="true"></i> ICU TV</a></li>
                     </ul>
                 </div>
 
@@ -1264,15 +1289,18 @@
                     <h6>Contact</h6>
                     <div class="footer-contact-item">
                         <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                        <span>Great East Road, Plot 1234, Lusaka, Zambia</span>
+                        <span>Off Shantumbu Road, Kafue, Plot&nbsp;#&nbsp;19877/M/1A/392, Zambia</span>
                     </div>
                     <div class="footer-contact-item">
                         <i class="fas fa-phone" aria-hidden="true"></i>
-                        <a href="tel:+260211123456">+260 211 123 456</a>
+                        <span>
+                            <a href="tel:+260211000000">+260 211 000 000</a><br>
+                            <a href="tel:+260779841694">+260 779 841 694</a>
+                        </span>
                     </div>
                     <div class="footer-contact-item">
                         <i class="fas fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:info@icuzambia.net">info@icuzambia.net</a>
+                        <a href="mailto:info@icu.ac.zm">info@icu.ac.zm</a>
                     </div>
                     <div class="footer-contact-item">
                         <i class="fas fa-clock" aria-hidden="true"></i>
@@ -1284,11 +1312,11 @@
 
             <!-- Bottom bar -->
             <div class="footer-bottom">
-                <p>&copy; <span id="footerYear"></span> ICU Zambia. All rights reserved. | Information and Communication University</p>
+                <p>&copy; <span id="footerYear"></span> ICU Zambia. All rights reserved. | Information and Communications University</p>
                 <p>
-                    Accredited by the <a href="#">Higher Education Authority (HEA)</a>, Zambia &nbsp;|&nbsp;
-                    <a href="#">Privacy Policy</a> &nbsp;|&nbsp;
-                    <a href="#">Terms of Use</a>
+                    Accredited by the <a href="https://hea.ac.zm" target="_blank" rel="noopener">Higher Education Authority (HEA)</a>, Zambia &nbsp;|&nbsp;
+                    <a href="https://icu.ac.zm/privacy" target="_blank" rel="noopener">Privacy Policy</a> &nbsp;|&nbsp;
+                    <a href="https://icu.ac.zm/terms" target="_blank" rel="noopener">Terms of Use</a>
                 </p>
             </div>
         </div>

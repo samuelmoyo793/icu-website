@@ -1,5 +1,5 @@
 /**
- * ICU Zambia – Information and Communication University
+ * ICU Zambia – Information and Communications University
  * Main JavaScript  |  Professional Academic Edition
  *
  * Sections:
@@ -217,9 +217,10 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!el) return;
 
         var phrases = [
-            'Shaping the Future Through Technology & Innovation',
-            'Accredited · Affordable · Excellence',
-            'Zambia\'s Premier ICT University Since 2009'
+            'Delivering An ICT Enabled Education With Excellence',
+            'Shaping Minds. Transforming Lives.',
+            'Zambia\'s Premier ICT University — Est. 2009',
+            'Education That Inspires Invention, Not Just Usage'
         ];
 
         var phraseIdx  = 0;
