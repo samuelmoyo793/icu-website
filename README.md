@@ -133,9 +133,3 @@ Off Shantumbu Road, Kafue, Plot # 19877/M/1A/392, Zambia
 **Email:** [info@icu.ac.zm](mailto:info@icu.ac.zm)
 **Office Hours:** Monday – Friday, 08:00 – 17:00
 
----
-
-## Licence
-
-&copy; Information and Communications University Zambia. All rights reserved.
-Accredited by the [Higher Education Authority (HEA)](https://hea.ac.zm), Zambia.
