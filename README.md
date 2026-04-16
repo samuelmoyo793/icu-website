@@ -1,7 +1,18 @@
 # ICU Zambia — Group(4) Presentation
 
-**Information and Communications University (ICU) Zambia**
-*Delivering An ICT Enabled Education With Excellence*
+**IWD DL 2026**
+*Group members James Luwō
+Fears Sinkalu
+Kasanga Davy
+Abraham Nyirongo
+Abigail M. Munalula
+Samuel Mo
+Ben Phiri
+Osward Mwaba
+Wamuyoo M. Ndiyoi
+Amazing Nyangu
+<img width="115" height="261" alt="image" src="https://github.com/user-attachments/assets/32ff2ef3-517b-4ab7-b1ed-3132d1ccca56" />
+*
 
 ---
 
