@@ -124,7 +124,7 @@ Off Shantumbu Road, Kafue, Plot # 19877/M/1A/392, Zambia
 
 | Department | Phone |
 |---|---|
-| General Inquiries | +260 211 000 000 / +260 779 841 694 / +260 777 020 293 |
+| General Inquiries | +260 961 532 739 / +260 779 841 694 / +260 777 020 293 |
 | Registration | +260 970 406 960 / +260 971 770 875 |
 | Programme Inquiries | +260 979 328 041 / +260 977 450 151 |
 | ZRDC Sponsorship | +260 971 177 346 / +260 979 303 567 |
