@@ -1,17 +1,18 @@
 # ICU Zambia — Group(4) Presentation
 
 **IWD DL 2026**
--Group members 
--James Luwō
--Fears Sinkalu
--Kasanga Davy
--Abraham Nyirongo
--Abigail M. Munalula
--Samuel Mo
--Ben Phiri
--Osward Mwaba
--Wamuyoo M. Ndiyoi
--Amazing Nyangu*
+**Group members** 
+
+- James Luwō
+- Fears Sinkalu
+- Kasanga Davy
+- Abraham Nyirongo
+- Abigail M. Munalula
+- Samuel Mo
+- Ben Phiri
+- Osward Mwaba
+- Wamuyoo M. Ndiyoi
+- Amazing Nyangu
 
 ---
 
