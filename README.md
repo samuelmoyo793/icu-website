@@ -3,7 +3,7 @@
 **IWD DL 2026**
 **Group members** 
 
-- James Luwō
+- James Luwo
 - Fears Sinkalu
 - Kasanga Davy
 - Abraham Nyirongo
