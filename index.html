@@ -1210,7 +1210,7 @@
                     <div class="map-wrap">
                         <iframe
                             title="ICU Zambia location map – Off Shantumbu Road, Kafue"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15601.123456789!2d28.3479973!3d-15.4879258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19408d123456789%3A0xabcdef123456789!2sInformation%20and%20Communications%20University%20Zambia!5e0!3m2!1sen!2szm!4v1713200000000""
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15601.123456789!2d28.3479973!3d-15.4879258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19408d123456789%3A0xabcdef123456789!2sInformation%20and%20Communications%20University%20Zambia!5e0!3m2!1sen!2szm!4v1713200000000"
                             allowfullscreen
                             loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade">
@@ -1321,6 +1321,27 @@
             </div>
         </div>
     </footer>
+
+  <!-- CHAT BUTTON (collapsed state) -->
+<div id="chatToggle" onclick="openChat()">
+    <i class="fas fa-comments"></i>
+</div>
+
+<!-- CHAT PANEL -->
+<div id="chatPanel" class="hidden">
+    
+    <div class="chat-header">
+        <span>ICU Admissions Assistant</span>
+        <button onclick="closeChat()">×</button>
+    </div>
+
+    <div id="chatBox"></div>
+
+    <div class="chat-input">
+        <input type="text" id="userInput" placeholder="Ask about admissions..." />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div>
 
     <!-- Back-to-Top -->
     <button id="backToTop" aria-label="Scroll back to top">
